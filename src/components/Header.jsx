@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -28,7 +28,7 @@ const Header = () => {
       className={`${
         isSticky
           ? 'fixed top-0 z-50 w-[98%] text-black bg-white h-auto p-5 transition-all rounded-full mt-2 duration-700 ease-in-out'
-          : 'bg-transparent shadow-xl bg-black text-white rounded-full z-50 mt-5 w-[90%] p-3 px-5 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100 transition-all duration-300 ease-in-out'
+          : 'bg-transparent shadow-xl bg-black text-white rounded-full z-50 mt-3 w-[90%] p-3 px-5 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100 transition-all duration-300 ease-in-out'
       }`}
     >
       <div className="flex justify-between items-center">

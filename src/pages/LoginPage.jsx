@@ -1,4 +1,4 @@
-import busImage from "../assets/bus.png";
+import loginImage from "../assets/output.jpg";
 import InputField from "../components/InputField";
 import LinkButton from "../components/LinkButton";
 import PasswordInput from "../components/PasswordInput";
@@ -10,7 +10,7 @@ const LoginPage = () => {
         {/* Left Section */}
         <div className="relative overflow-hidden h-full bg-gradient-to-br rounded-3xl w-full md:w-1/2 p-10 flex flex-col items-center justify-center text-white">
           <img
-            src={busImage}
+            src={loginImage}
             alt="Bus"
             className="absolute z-0 w-full h-full object-cover transform scale-x-[-1]"
           />
